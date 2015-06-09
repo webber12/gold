@@ -1,0 +1,1807 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<title>Товар</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="uikit/css/uikit.min.css" />
+<link rel="stylesheet" href="uikit/css/components/slidenav.min.css" />
+<link rel="stylesheet" href="uikit/css/components/tooltip.css">
+<link rel="stylesheet" href="css/fredcaru.css" />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link rel="stylesheet" href="js/jQueryFormStyler/jquery.formstyler.css" />
+<link rel="stylesheet" href="css/style.css">
+<!--[if IE]>
+<link rel="stylesheet" href="css/ie.css" media="screen" />
+<![endif]-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="uikit/js/uikit.min.js"></script>
+<script src="uikit/js/components/lightbox.min.js"></script>
+<script src="uikit/js/components/tooltip.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/jquery.countdown-ru.js"></script>
+<script src="js/jQueryFormStyler/jquery.formstyler.js"></script>
+<!--[if lt IE 9]>
+<script>
+	document.createElement('header');
+	document.createElement('nav');
+	document.createElement('section');
+	document.createElement('article');
+	document.createElement('aside');
+	document.createElement('footer');
+	document.createElement('hgroup');
+	document.createElement('figure');
+	document.createElement('figcaption');
+</script>
+<![endif]-->
+<script>
+$(document).ready(function(){
+
+});
+</script>
+<script src="js/main.js"></script>
+</head>
+<body>
+<aside class="topinfo  uk-hidden-small">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<nav class="uk-width-5-6 uk-width-small-3-4 uk-width-medium-3-4 uk-width-large-5-6 topmenu">
+				<a href="">Гарантии</a>
+				<a href="">Мои желания (12)</a>
+				<a href="">Доставка</a>
+				<a href="">Контакты</a>
+				<a href="">Вопрос/ответ</a>
+				<a href="">Как купить</a>
+				<a href="" class="last">Акции</a>
+			</nav>
+			<div class="uk-width-1-6 uk-width-small-1-4 uk-width-medium-1-4  uk-width-large-1-6 lk"><a href="#modal-login"  data-uk-modal>Личный кабинет</a></div>
+		</div>
+	</div>
+</aside>
+
+<div class="uk-container uk-container-center topinfo2">
+	<div class="uk-grid" itemscope itemtype="http://schema.org/LocalBusiness">
+		<div class="uk-width-5-6 uk-width-small-9-10 uk-width-medium-2-3 uk-width-large-3-6">
+			<div class="uk-grid">
+				<div class="uk-width-1-10 uk-width-small-1-10 uk-width-medium-1-10 uk-hidden-large top_mob_menu">
+					<a href="#canvas-menu" data-uk-offcanvas><img src="imgs/btn_menu.png" alt=""></a>
+				</div>
+				<div class="uk-width-3-10 uk-width-small-4-10 uk-width-medium-4-10 uk-width-large-1-2 top_logo">
+					<a href=""><img src="imgs/logo.png" alt=""></a>
+				</div>
+				<div class="uk-width-6-10 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2 top_contact">
+					<div class="top_feedback osb"><a href="#modal-callback" data-uk-modal>Обратный звонок</a></div>
+					<div class="top_phone" itemprop="name" style="display:none;">Голдач</div>
+					<div class="top_phone" itemprop="telephone">8-800-775-42-30</div>
+					<div class="top_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">г. Москва</span>, <span itemprop="streetAddress">ул. Молодцова, 4а</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="uk-width-2-6 uk-hidden-small uk-hidden-medium uk-visible-large-small uk-width-large-2-6">
+			<div class="top_time"><time itemprop="openingHours" datetime="Mo-Fr 09:00−20:00">ПН-ПТ: 9:00-20:00</time>  |  <time itemprop="openingHours" datetime="Sa,Su 09:00−16:00">СБ-ВС: 9:00-16:00</time></div>
+			<div class="top_delivery">Время самовывоза необходимо согласовывать заранее</div>
+			<div class="top_search top_search_standart">
+				<form action="#" method="get">
+					<input type="text" name="search" class="bbx inp_txt" placeholder="Найти товар...">
+					<input type="submit" value="Искать" class="inp_search">
+				</form>
+			</div>
+		</div>
+		<div class="uk-width-1-6 uk-width-small-1-10 uk-width-medium-1-3 uk-width-large-1-6 topcart">
+			<div class="topcart_info">
+				<a href="" class="cart_pic"><div id="cart_count">6</div>Корзина</a>
+				<div class="topcart_extended_container">
+					<div class="topcart_extended bbx">
+						<div class="pic"></div>
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar1.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Кольцо обручальное с гравировкой Сердце<br><div class="topcart_price osb">245 300 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar2.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Золотое кольцо с дорожкой из фианита<br><div class="topcart_price osb">5 150 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar2.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Золотое кольцо с дорожкой из фианита<br><div class="topcart_price osb">5 150 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar2.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Золотое кольцо с дорожкой из фианита<br><div class="topcart_price osb">5 150 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar2.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Золотое кольцо с дорожкой из фианита<br><div class="topcart_price osb">5 150 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-3 topcart_extended_image"><a href=""><img src="imgs/topcart_tovar2.jpg" alt=""></a></div>
+									<div class="uk-width-2-3 topcart_extended_product"><a href="">Золотое кольцо с дорожкой из фианита<br><div class="topcart_price osb">5 150 руб.</div></a></div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid">
+									<div class="uk-width-1-1 topcart_total osb">Всего: <span class="topcart_price osb">250 450 руб.</span></div>
+									<div class="uk-width-1-1"><a href="" class="btn_blue osb bbx">ОФОРМИТЬ ЗАКАЗ</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top_search  uk-hidden-small uk-hidden-large uk-hidden-xlarge top_search_tablet">
+				<form action="#" method="get">
+					<input type="text" name="search" class="bbx inp_txt" placeholder="Найти товар...">
+					<input type="submit" value="Искать" class="inp_search">
+				</form>
+			</div>
+		</div>
+		<div class="uk-width-1-1 uk-hidden-medium uk-hidden-large uk-hidden-xlarge">
+			<div class="top_search  top_search_mobile">
+				<form action="#" method="get">
+					<input type="text" name="search" class="bbx inp_txt" placeholder="Найти товар...">
+					<input type="submit" value="Искать" class="inp_search">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="canvas-menu" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar" id="uk-offcanvas-bar">
+		<div class="uk-grid uk-height-1-1">
+			<div class="menu_canvas uk-width-1-2" style="padding:20px 10px 20px 20px;">
+				<div class="top_search  top_search_canvas">
+					<form action="#" method="get">
+						<input type="text" name="search" class="bbx inp_txt" placeholder="Найти...">
+						<input type="submit" value="Искать" class="inp_search">
+					</form>
+				</div>
+				<div class="main_menu_canvas osb">
+					<nav>
+						<ul>
+							<li class="sm m1" data-submenu-block="sub-block1"><i> </i><a href="">Каталог</a></li>
+							<li class="sm m2" data-submenu-block="sub-block2"><i> </i><a href="">Кольца</a></li>
+							<li class="sm m3" data-submenu-block="sub-block3"><i> </i><a href="">Подвески</a></li>
+							<li class="sm m4" data-submenu-block="sub-block4"><i> </i><a href="">Браслеты</a></li>
+							<li class="sm m5" data-submenu-block="sub-block5"><i> </i><a href="">Серьги</a></li>
+							<li class="sm m6" data-submenu-block="sub-block6"><i> </i><a href="">Цепочки</a></li>
+							<li class="sm m7" data-submenu-block="sub-block7"><i> </i><a href="">Мужское</a></li>
+						</ul>
+					</nav>
+				</div>
+				<hr class="uk-grid-divider">
+				<div class="top_menu_canvas uk-hidden-medium uk-hidden-large">
+					<nav>
+						<a href="">Гарантии</a>
+						<a href="">Мои желания (12)</a>
+						<a href="">Доставка</a>
+						<a href="">Контакты</a>
+						<a href="">Вопрос/ответ</a>
+						<a href="">Как купить</a>
+						<a href="" class="last">Акции</a>
+					</nav>
+				</div>
+			</div>
+			<div class="sub_menu_canvas uk-width-1-2">
+				<div class="sub-block sub-block1" id="sub-block1">
+					<nav>
+						<a href="">Печатки</a>
+						<a href="">Кольца</a>
+						<a href="">Подвески</a>
+						<a href="">Браслеты</a>
+						<a href="">Серьги</a>
+						<a href="" class="last">Цепочки</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block2" id="sub-block2">
+					<nav>
+						<a href="">Все кольца</a>
+						<a href="">Обручальные</a>
+						<a href="">Помолвочные</a>
+						<a href="">Бесконечность</a>
+						<a href="">На ногу</a>
+						<a href="">Кольца с сердцем</a>
+						<a href="" class="last">Для детей</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block3" id="sub-block3">
+					<nav>
+						<a href="">Кулоны имена</a>
+						<a href="">Кулоны буквы</a>
+						<a href="">Кулоны сердце</a>
+						<a href="" class="last">Подвески шармы</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block4" id="sub-block4">
+					<nav>
+						<a href="">Браслет с камнем</a>
+						<a href="">Браслет на ногу</a>
+						<a href="">Браслет обруч</a>
+						<a href="">Браслет цепь</a>
+						<a href="">Браслет ролекс</a>
+						<a href="">Пантье</a>
+						<a href="" class="last">Декоративные</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block5" id="sub-block5">
+					<nav>
+						<a href="">Детские серьги</a>
+						<a href="">Навесной крючок</a>
+						<a href="">Пусеты</a>
+						<a href="">Конго</a>
+						<a href="">Продевки</a>
+						<a href="">Швенза</a>
+						<a href="">Навесной крючок</a>
+						<a href="">Итальянский</a>
+						<a href="">Каффы</a>
+						<a href="" class="last">Одиночная серьга</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block6" id="sub-block6">
+					<nav>
+						<a href="">Love</a>
+						<a href="">Снейк</a>
+						<a href="">Якорная</a>
+						<a href="">Бисмарк</a>
+						<a href="">Сингапур</a>
+						<a href="">Панцирная</a>
+						<a href="">Перла</a>
+						<a href="">Нонна</a>
+						<a href="" class="last">Ромб</a>
+					</nav>
+				</div>
+				<div class="sub-block sub-block7" id="sub-block7">
+					<nav>
+						<a href="">Печатки</a>
+						<a href="">Запонки</a>
+						<a href="">Зажимы для галстука</a>
+						<a href="">Звезды на погонах</a>
+						<a href="">Мужские браслеты</a>
+						<a href="" class="last">Брелоки для ключей</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$("#canvas-menu").on('hide.uk.offcanvas', function(){
+    $("#canvas-menu .sub-block").hide();
+    $("#uk-offcanvas-bar").removeClass("active");
+    $("#uk-offcanvas-bar .sm").removeClass("hover");   
+});
+</script>
+<div class="uk-container uk-container-center uk-hidden-small uk-hidden-medium  top_menu">
+	<div class="uk-grid">
+		<div class="uk-width-1-1">
+		
+			<!-- ВЕРХНЕЕ МЕНЮ -->
+			<nav class="top_menu_list osb">
+				<ul>
+					<li class="sm m1" data-submenu-block="block1"><i> </i><a href="">Каталог</a></li>
+					<li class="sm m2" data-submenu-block="block2"><i> </i><a href="">Кольца</a></li>
+					<li class="sm m3" data-submenu-block="block3"><i> </i><a href="">Подвески</a></li>
+					<li class="sm m4" data-submenu-block="block4"><i> </i><a href="">Браслеты</a></li>
+					<li class="sm m5" data-submenu-block="block5"><i> </i><a href="">Серьги</a></li>
+					<li class="sm m6" data-submenu-block="block6"><i> </i><a href="">Цепочки</a></li>
+					<li class="sm m7" data-submenu-block="block7"><i> </i><a href="">Мужское</a></li>
+				</ul>
+				
+				<!-- ВЫПАДАЮЩЕЕ ПОДМЕНЮ -->
+				<div class="top_submenu bbx osr" style="display:none;">
+				
+					<!-- подменю КАТАЛОГ -->
+					<div class="top_submenu_block top_submenu_block1" id="block1" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+							</div>
+						</div>
+						<hr class="uk-grid-divider" style="">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<div class="uk-grid uk-grid-width-1-6 catalog_submenu_zagols">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Печатки (кольца)</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Кольца</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Подвески</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслеты</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Серьги</a></div>
+									</div>
+									<div class="item item6">
+										<div class="submenu_image"><a href=""><img src="imgs/catalog_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Цепочки</a></div>
+									</div>
+								</div>
+								<div class="uk-grid uk-grid-width-1-4">
+									<div class="item item1">
+										<div class="submenu_zagol_bigger ossb">Драгоценный камень</div>
+										<div class="filter_block">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+											<div><img src="imgs/kamen_black2.jpg" alt=""> <a href="">С черным бриллиантом</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_zagol_bigger ossb">Цена</div>
+										<div class="filter_block">
+											<div><a href="">от 3 000 до 7 000 руб.</a></div>
+											<div><a href="">от 5 000 до 7 000 руб.</a></div>
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 10 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 до 40 000 руб.</a></div>
+											<div><a href="">от 40 000 руб.</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Вставка</div>
+										<div class="filter_block last">
+											<div><img src="imgs/kamen_none.jpg" alt=""> <a href="">Без вставки</a></div>
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатом</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистом</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитом</a></div>
+											<div><img src="imgs/kamen_black.jpg" alt=""> <a href="">С жемчугом</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Металл</div>
+										<div class="filter_block last">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю КОЛЬЦА -->
+					<div class="top_submenu_block top_submenu_block2" id="block2" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+							</div>
+						</div>
+						<hr class="uk-grid-divider" style="">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<div class="uk-grid uk-grid-width-1-5 catalog_submenu_zagols">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Все кольца</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Обручальные</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Помолвочные</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Бесконечность</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">На ногу</a></div>
+									</div>
+								</div>
+								<div class="uk-grid uk-grid-width-1-5 submenu_center_block">
+									<div class="item item1">
+										<div class="filter_block">
+											<div class="uk-grid uk-grid-width-1-4 submenu_sizes">
+												<div><a href="">14</a></div>
+												<div><a href="">14.5</a></div>
+												<div><a href="">15</a></div>
+												<div><a href="">15.5</a></div>
+												<div><a href="">16</a></div>
+												<div><a href="">16.5</a></div>
+												<div><a href="">17</a></div>
+												<div><a href="">17.5</a></div>
+												<div><a href="">18</a></div>
+												<div><a href="">18.5</a></div>
+												<div><a href="">19</a></div>
+												<div><a href="">19.5</a></div>
+												<div><a href="">20</a></div>
+												<div><a href="">20.5</a></div>
+												<div><a href="">21</a></div>
+												<div><a href="">21.5</a></div>
+												<div><a href="">22</a></div>
+												<div><a href="">22.5</a></div>
+												<div><a href="">23</a></div>
+												<div><a href="">23.5</a></div>
+											</div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="filter_block">
+											<div><a href="">Классические</a></div>
+											<div><a href="">Спаси и сохрани</a></div>
+											<div><a href="">Тринити</a></div>
+											<div><a href="">Широкие</a></div>
+											<div><a href="">С бриллиантами</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="filter_block last">
+											<div><a href="">Один камень</a></div>
+											<div><a href="">Три камня</a></div>
+											<div><a href="">Малинки</a></div>
+											<div><a href="">Принцесса</a></div>
+											<div><a href="">Romantic</a></div>
+										</div>
+									</div>
+									<div class="item item6">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Кольца с сердцем</a></div>
+									</div>
+									<div class="item item7">
+										<div class="submenu_image"><a href=""><img src="imgs/kolco_submenu7.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Для детей</a></div>
+									</div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid uk-grid-width-1-4" style="margin-top:20px;">
+									<div class="item item1">
+										<div class="submenu_zagol_bigger ossb">Драгоценный камень</div>
+										<div class="filter_block">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+											<div><img src="imgs/kamen_black2.jpg" alt=""> <a href="">С черным бриллиантом</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_zagol_bigger ossb">Цена</div>
+										<div class="filter_block">
+											<div><a href="">от 3 000 до 7 000 руб.</a></div>
+											<div><a href="">от 5 000 до 7 000 руб.</a></div>
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 10 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 до 40 000 руб.</a></div>
+											<div><a href="">от 40 000 руб.</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Вставка</div>
+										<div class="filter_block last">
+											<div><img src="imgs/kamen_none.jpg" alt=""> <a href="">Без вставки</a></div>
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатом</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистом</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитом</a></div>
+											<div><img src="imgs/kamen_black.jpg" alt=""> <a href="">С жемчугом</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Металл</div>
+										<div class="filter_block last">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю ПОДВЕСКИ -->
+					<div class="top_submenu_block top_submenu_block3" id="block3" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+							</div>
+						</div>
+						<hr class="uk-grid-divider" style="">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<div class="uk-grid uk-grid-width-1-5 catalog_submenu_zagols">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Драг. камень</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Вставка</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Религия</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Кулоны имена</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Кулоны буквы</a></div>
+									</div>
+								</div>
+								<div class="uk-grid uk-grid-width-1-5 submenu_center_block">
+									<div class="item item1">
+										<div class="filter_block">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="filter_block">
+											<div><img src="imgs/kamen_none.jpg" alt=""> <a href="">Без вставки</a></div>
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатом</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистом</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитом</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="filter_block last">
+											<div><a href="">Иконки</a></div>
+											<div><a href="">Крестики</a></div>
+											<div><a href="">Ислам</a></div>
+										</div>
+									</div>
+									<div class="item item6">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Кулоны сердце</a></div>
+									</div>
+									<div class="item item7">
+										<div class="submenu_image"><a href=""><img src="imgs/podveska_submenu7.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Подвески-шармы</a></div>
+									</div>
+								</div>
+								<hr class="uk-grid-divider">
+								<div class="uk-grid" style="margin-top:20px;">
+									<div class="uk-width-1-3 item item1">
+										<div class="submenu_zagol_bigger ossb">Знаки зодиака</div>
+										<div><a href="" class="view_all view_all_smaller ossb">Посмотреть все знаки зодиака</a></div>
+										<hr class="uk-grid-divider" style="width:90%;">
+										<div class="filter_block">
+											<div class="submenu_zodiaks">
+												<a href="">Овен</a>, <a href="">Телец</a>, <a href="">Близнецы</a>, <a href="">Рак</a>, <a href="">Лев</a>,
+												<a href="">Дева</a>, <a href="">Весы</a>, <a href="">Скорпион</a>, <a href="">Стрелец</a>, <a href="">Козерог</a>,
+												<a href="">Водолей</a>, <a href="">Рыбы</a></div>
+										</div>
+									</div>
+									<div class="uk-width-2-3 item item1">
+										<div class="submenu_zagol_bigger ossb">Кулоны фигурки</div>
+										<div><a href="" class="view_all view_all_smaller ossb">Все кулоны фигурки</a></div>
+										<hr class="uk-grid-divider">
+										<div class="uk-grid uk-grid-width-1-5 catalog_submenu_kf">
+											<div class="item item1">
+												<div class="submenu_image"><a href=""><img src="imgs/submenu_kf1.jpg" alt=""></a></div>
+												<div class="submenu_zagol ossb"><a href="">Иероглифы</a></div>
+											</div>
+											<div class="item item2">
+												<div class="submenu_image"><a href=""><img src="imgs/submenu_kf2.jpg" alt=""></a></div>
+												<div class="submenu_zagol ossb"><a href="">Кулоны кошки</a></div>
+											</div>
+											<div class="item item3">
+												<div class="submenu_image"><a href=""><img src="imgs/submenu_kf3.jpg" alt=""></a></div>
+												<div class="submenu_zagol ossb"><a href="">Подковы на удачу</a></div>
+											</div>
+											<div class="item item4">
+												<div class="submenu_image"><a href=""><img src="imgs/submenu_kf4.jpg" alt=""></a></div>
+												<div class="submenu_zagol ossb"><a href="">Мишки</a></div>
+											</div>
+											<div class="item item5">
+												<div class="submenu_image"><a href=""><img src="imgs/submenu_kf5.jpg" alt=""></a></div>
+												<div class="submenu_zagol ossb"><a href="">Ножницы</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю БРАСЛЕТЫ -->
+					<div class="top_submenu_block top_submenu_block4" id="block4" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+							</div>
+						</div>
+						<hr class="uk-grid-divider" style="">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<div class="uk-grid uk-grid-width-1-5">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслет с камнем</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитами</a></div>
+											<div><img src="imgs/kamen_black.jpg" alt=""> <a href="">С жемчугом</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслет на ногу</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслет обруч</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслет цепь</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Браслет ролекс</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+								</div>
+								<hr class="uk-grid-divider" style="">
+								<div class="uk-grid uk-grid-width-1-5">
+									<div class="item item1">
+										<div class="filter_block braslet_sizes">
+											<div class="submenu_zagol_bigger ossb">Выбор по размеру</div>
+											<a href="">16</a>, <a href="">17</a>, <a href="">18</a>, <a href="">19</a>, <a href="">20</a>, <a href="">21</a>,
+											<a href="">22</a>, <a href="">23</a>, <a href="">24</a>, <a href="">25</a>, <a href="">26</a>, <a href="">27</a>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_zagol_bigger ossb">Цена</div>
+											<div class="filter_block">
+												<div><a href="">от 3 000 до 7 000 руб.</a></div>
+												<div><a href="">от 5 000 до 7 000 руб.</a></div>
+												<div><a href="">от 7 000 до 20 000 руб.</a></div>
+												<div><a href="">от 20 000 руб.</a></div>
+											</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Полудраг. камень</div>
+											<div class="filter_block last">
+												<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+												<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатом</a></div>
+												<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистом</a></div>
+												<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитом</a></div>
+											</div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Пантье</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/braslet_submenu7.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Декоративные</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю СЕРЬГИ -->
+					<div class="top_submenu_block top_submenu_block5" id="block5" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-4 submenu_main_image"><img src="imgs/submenu_sergi.jpg" alt=""></div>
+							<div class="uk-width-3-4">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+								<div class="uk-grid uk-grid-width-1-5">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Детские<br>серьги</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Навесной<br>крючок с петлей</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Пусеты<br>(гвоздики)</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Конго</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Продевки<br>(висюльки)</a></div>
+									</div>
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Швенза<br>(английский замок)</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu7.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Навесной<br>крючок</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu8.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Итальянский<br>(Омега)</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu9.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Каффы</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/sergi_submenu10.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Одиночная<br>серьга</a></div>
+									</div>
+								</div>
+								<hr class="uk-grid-divider" style="">
+								<div class="uk-width-1-1">
+									<div class="uk-grid uk-grid-width-1-4" style="margin-top:20px;">
+										<div class="item item1">
+											<div class="submenu_zagol_bigger ossb">Драгоценный камень</div>
+											<div class="filter_block last">
+												<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+												<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+												<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+												<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+											</div>
+										</div>
+										<div class="item item2">
+											<div class="submenu_zagol_bigger ossb">Цена</div>
+											<div class="filter_block last">
+												<div><a href="">от 3 000 до 7 000 руб.</a></div>
+												<div><a href="">от 5 000 до 7 000 руб.</a></div>
+												<div><a href="">от 7 000 до 20 000 руб.</a></div>
+												<div><a href="">от 20 000 руб.</a></div>
+											</div>
+										</div>
+										<div class="item item3">
+											<div class="submenu_zagol_bigger ossb">Полудраг. камень</div>
+											<div class="filter_block last">
+												<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С топазами</a></div>
+												<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С гранатом</a></div>
+												<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С аметистом</a></div>
+												<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С фианитом</a></div>
+											</div>
+										</div>
+										<div class="item item4">
+											<div class="submenu_zagol_bigger ossb">Металл</div>
+											<div class="filter_block last">
+												<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+												<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+												<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю ЦЕПОЧКИ -->
+					<div class="top_submenu_block top_submenu_block6" id="block6" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-1">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+							</div>
+						</div>
+						<hr class="uk-grid-divider" style="">
+						<div class="uk-grid">
+							<div class="uk-width-2-3">
+								<div class="submenu_zagol_bigger ossb">Выбор по плетению</div>
+								<div class="uk-grid uk-grid-width-1-5">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Love (лав)</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Снейк</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Якорная</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Бисмарк</a></div>
+									</div>
+									<div class="item item5">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Сингапур</a></div>
+									</div>
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Панцирная</a></div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu7.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Перла</a></div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu8.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Нонна</a></div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/cepochka_submenu9.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Ромб</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="uk-width-1-3">
+								<div class="uk-grid uk-grid-width-1-2">
+									<div class="item item1">
+										<div class="submenu_zagol_bigger ossb">Металл</div>
+										<div class="filter_block last">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_zagol_bigger ossb">Цена</div>
+										<div class="filter_block last">
+											<div><a href="">от 3 000 до 7 000 руб.</a></div>
+											<div><a href="">от 5 000 до 7 000 руб.</a></div>
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 руб.</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_zagol_bigger ossb">Размер</div>
+										<div class="filter_block last">
+											<div><a href="">Толстые</a></div>
+											<div><a href="">Средние</a></div>
+											<div><a href="">Тонкие</a></div>
+											<div><a href="">Мужские</a></div>
+										</div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_zagol_bigger ossb">По длине</div>
+										<div class="filter_block last">
+											<div><a href="">40</a> &nbsp; <a href="">55</a></div>
+											<div><a href="">45</a> &nbsp; <a href="">60</a></div>
+											<div><a href="">50</a> &nbsp; <a href="">65</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- подменю МУЖСКОЕ -->
+					<div class="top_submenu_block top_submenu_block7" id="block7" style="display:none;">
+						<div class="uk-grid">
+							<div class="uk-width-1-4 submenu_main_image"><img src="imgs/submenu_man.jpg" alt=""></div>
+							<div class="uk-width-3-4">
+								<a href="" class="view_all ossb">Посмотреть все</a>
+								<div class="uk-grid uk-grid-width-1-4">
+									<div class="item item1">
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu1.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Печатки (кольца)</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+										<div class="filter_block">
+											<div><a href="">от 3 000 до 5 000 руб.</a></div>
+											<div><a href="">от 5 000 до 7 000 руб.</a></div>
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 руб.</a></div>
+										</div>
+										<div class="filter_block last">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+										</div>
+									</div>
+									<div class="item item2">
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu2.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Запонки</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+										<div class="filter_block">
+											<div><a href="">от 5 000 до 7 000 руб.</a></div>
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 руб.</a></div>
+										</div>
+										<div class="filter_block last">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_red.jpg" alt=""> <a href="">С рубинами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+											<div><img src="imgs/kamen_green.jpg" alt=""> <a href="">С изумрудами</a></div>
+										</div>
+									</div>
+									<div class="item item3">
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu3.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Зажимы для галстука</a></div>
+										<div class="filter_block">
+											<div><img src="imgs/red_gold.jpg" alt=""> <a href="">Красное золото</a></div>
+											<div><img src="imgs/yellow_gold.jpg" alt=""> <a href="">Желтое золото</a></div>
+											<div><img src="imgs/white_gold.jpg" alt=""> <a href="">Белое золото</a></div>
+										</div>
+										<div class="filter_block">
+											<div><a href="">от 7 000 до 20 000 руб.</a></div>
+											<div><a href="">от 20 000 руб.</a></div>
+										</div>
+										<div class="filter_block last">
+											<div><img src="imgs/kamen_white.jpg" alt=""> <a href="">С бриллиантами</a></div>
+											<div><img src="imgs/kamen_blue.jpg" alt=""> <a href="">С сапфирами</a></div>
+										</div>
+									</div>
+									<div class="item item4">
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu4.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Звезды на погонах</a></div>
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu5.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb"><a href="">Мужские браслеты</a></div>
+										<div class="submenu_image"><a href=""><img src="imgs/man_submenu6.jpg" alt=""></a></div>
+										<div class="submenu_zagol ossb last"><a href="">Брелоки для ключей</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- КОНЕЦ ВЫПАДАЮЩЕГО ПОДМЕНЮ -->
+			</nav>
+			<!-- КОНЕЦ ВЕРХНЕГО МЕНЮ -->
+		</div>
+	</div>
+</div>
+
+<div class="clearfix uk-hidden-small" style="height:20px;border-top:solid 1px #009ba1;"></div>
+<div class="breadcrumbs_wrapper">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid breadcrumbs">
+			<div class="uk-width-1-1">
+				<div class="inner"><a href="">Каталог золотых украшений</a> &rarr; <a href="">Кольца</a> &rarr; <span class="current">Золотое кольцо, белое золото, полудраг треугольной округлой формы</span></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="content_wrapper">
+	<article class="uk-container uk-container-center" itemscope itemtype="http://schema.org/Product">
+		<h1 itemprop="name">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм<span class="small">Ширина: 4 мм 
+Кольцо классическое бухтированное (облегченное) с гравировкой "Сердце". На внутренней стороне шинки нанесена гравировка "Ты и Я", что придает кольцу особую значимость для молодоженов. 
+ <a href="http://goldach.ru/?productid=12550038">Вам также может понравится вот это кольцо</a> 
+</span></h1>
+		<form action="#" method="post"><div class="uk-grid tovar_main_info">
+			<div class="uk-width-1-10 uk-hidden-small uk-hidden-medium tovar_gallery">
+				<div class="tovar_slider_wrapper">
+					<div class="tovarSlider" id="tovarSlider">
+						<div class="container"><a href="https://www.youtube.com/watch?v=PG-TH4jps1A" data-lightbox-type="video" data-uk-lightbox="{group:'tovar-gallery'}" title=""><img src="imgs/tovar_pic1.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+						<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+					</div>
+					<a class="tovar_slider_prev" id="tovar_slider_prev" href="#"></a>
+					<a class="tovar_slider_next" id="tovar_slider_next" href="#"></a>
+				</div>
+				
+<script>
+$(document).ready(function(){
+$("#tovarSlider").carouFredSel({
+	auto:{delay:500,duration:1000},
+	scroll:{
+		pauseOnHover:false,
+		duration:1000,
+	},
+	auto:false,
+	responsive: false,
+	prev	: {	
+		button	: "#tovar_slider_prev",
+		key		: "up"
+	},
+	next	: { 
+		button	: "#tovar_slider_next",
+		key		: "down"
+	},
+	items: 5,
+	direction: 'up',
+	swipe: {
+        onTouch: true,
+        onMouse: true
+    },
+	scroll: {
+		items: 1,
+		duration: 500,
+		timeoutDuration: 1000,
+		pauseOnHover:true
+	},
+	onCreate: function () {
+        $(window).resize(function () {
+			var w = $(".tovar_slider_wrapper").width();
+            $(".tovar_slider_wrapper .container").width(w);
+        }).trigger('resize');
+    }
+});
+});
+</script>
+
+			</div>
+			<div class="uk-width-1-1 uk-width-medium-5-10 tovar_image">
+				<div class="catalog_item_stiker catalog_item_stiker_hit"></div>
+				<figure><a href="imgs/tovar_image_big.jpg" data-uk-lightbox title=""><img src="imgs/tovar_image.jpg" alt="" itemprop="image" id="main_tovar_image"></a></figure>
+
+				<div class="uk-hidden-large uk-hidden-xlarge">
+					<div class="tovar_slider2_wrapper">
+						<div class="tovarSlider2" id="tovarSlider2">
+							<div class="container"><a href="https://www.youtube.com/watch?v=YE7VzlLtp-4" data-lightbox-type="video" data-uk-lightbox="{group:'tovar-gallery'}" title=""><img src="imgs/tovar_pic1.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image.jpg"><img src="imgs/tovar_pic2.jpg" alt=""></a></div>
+							<div class="container"><a href="imgs/tovar_image2_big.jpg" class="ins_big_image" data-target-image="main_tovar_image" data-mid-image="imgs/tovar_image2.jpg"><img src="imgs/tovar_pic2_2.jpg" alt=""></a></div>
+						</div>
+						<a class="tovar_slider2_prev" id="tovar_slider2_prev" href="#"></a>
+						<a class="tovar_slider2_next" id="tovar_slider2_next" href="#"></a>
+						<div class="white_hover_right uk-hidden-large uk-hidden-xlarge"></div>
+					</div>
+				</div>
+				
+<script>
+$(document).ready(function(){
+$("#tovarSlider2").carouFredSel({
+	auto:{delay:500,duration:1000},
+	scroll:{
+		pauseOnHover:false,
+		duration:1000,
+	},
+	auto:false,
+	responsive: true,
+	prev	: {	
+		button	: "#tovar_slider2_prev",
+		key		: "up"
+	},
+	next	: { 
+		button	: "#tovar_slider2_next",
+		key		: "down"
+	},
+	items: {
+		visible: {
+				min: 1,
+				max: 4
+			}
+	},
+	swipe: {
+        onTouch: true,
+        onMouse: true
+    },
+	scroll: {
+		items: 1,
+		duration: 500,
+		timeoutDuration: 1000,
+		pauseOnHover:true
+	}
+});
+});
+</script>
+
+			</div>
+			<div class="uk-width-1-1 uk-width-medium-4-10 tovar_params">
+				<div class="tovar_dostavka">
+					<h4 class="blue_text">БЕСПЛАТНАЯ ДОСТАВКА</h4>
+					<p>Закажи до 13.00 и получи бесплатную доставку внутри МКАД сегодня. <a href="">Подробнее</a></p>
+				</div>
+				<div class="tovar_articul gray_text uk-float-left uk-margin-bottom">Артикул: <span itemprop="sku">z18335115</span></div>
+				<div class="tovar_ostatok uk-float-right red_text uk-margin-bottom">Осталось 6 штук</div>
+				<div class="clearfix"></div>
+				<div class="uk-grid tovar_form">
+					<div class="uk-width-1-1">
+						<div class="pretty_selector bbx" id="color_selector">
+							<span class="value">Цвет металла</span>
+							<div class="pretty_selector_trigger"></div>
+							<div class="pretty_selector_options">
+								<div class="pretty_selector_option" data-target-id="color_selector" data-target-name="color" data-target-value="0">Цвет металла: Любой</div>
+								<div class="pretty_selector_option" data-target-id="color_selector" data-target-name="color" data-target-value="yellow">Цвет металла: <img src="imgs/yellow_gold.jpg" alt=""> Желтый</div>
+								<div class="pretty_selector_option" data-target-id="color_selector" data-target-name="color" data-target-value="red">Цвет металла: <img src="imgs/red_gold.jpg" alt=""> Красный</div>
+								<div class="pretty_selector_option" data-target-id="color_selector" data-target-name="color" data-target-value="white">Цвет металла: <img src="imgs/white_gold.jpg" alt=""> Белый</div>
+							</div>
+						</div>
+						<input type="hidden" name="color" value="">
+					</div>
+					<div class="uk-width-1-1">
+						<div class="pretty_selector bbx" id="vstavka_selector">
+							<span class="value">Выбрать вставку</span>
+							<div class="pretty_selector_trigger"></div>
+							<div class="pretty_selector_options">
+								<div class="pretty_selector_option" data-target-id="vstavka_selector" data-target-name="vstavka" data-target-value="0">Вставка: Любая</div>
+								<div class="pretty_selector_option" data-target-id="vstavka_selector" data-target-name="vstavka" data-target-value="1">Вставка: <img src="imgs/kamen_red.jpg" alt=""> Агат</div>
+								<div class="pretty_selector_option" data-target-id="vstavka_selector" data-target-name="vstavka" data-target-value="2">Вставка: <img src="imgs/kamen_blue.jpg" alt=""> Аметист</div>
+								<div class="pretty_selector_option" data-target-id="vstavka_selector" data-target-name="vstavka" data-target-value="3,2,5">Вставка: <img src="imgs/kamen_black.jpg" alt=""><img src="imgs/kamen_blue.jpg" alt=""><img src="imgs/kamen_green.jpg" alt=""> Бирюза+Аметист+Топаз</div>
+							</div>
+						</div>
+						<input type="hidden" name="vstavka" value="">
+					</div>
+					<div class="uk-width-1-1">
+						<div class="pretty_selector bbx" id="size_selector">
+							<span class="value">Размер</span>
+							<div class="pretty_selector_trigger"></div>
+							<div class="pretty_selector_options">
+								<div class="pretty_selector_option" data-target-id="size_selector" data-target-name="size" data-target-value="0">Размер: Любой</div>
+								<div class="pretty_selector_option" data-target-id="size_selector" data-target-name="size" data-target-value="10">Размер: 10</div>
+								<div class="pretty_selector_option" data-target-id="size_selector" data-target-name="size" data-target-value="20">Размер: 20</div>
+								<div class="pretty_selector_option" data-target-id="size_selector" data-target-name="size" data-target-value="30">Размер: 30</div>
+							</div>
+						</div>
+						<input type="hidden" name="size" value="">
+					</div>
+				</div>
+				<div class="tovar_params gray_text uk-margin-bottom" itemprop="description">
+					- средний вес 240 гр.<br>
+					- Проба: 585<br>
+					- Цвет: желтое золото <br>
+					- Вставка: сапфир<br>
+				</div>
+				<div class="tovar_prices uk-margin-bottom" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+					<span class="catalog_item_old_price uk-margin-right"><s>245 774 руб.</s></span>
+					<span class="catalog_item_price osb blue_text">245 300 руб.</span>
+					<meta itemprop="price" content="245300.00">
+					<meta itemprop="priceCurrency" content="RUB">
+				</div>
+				<div class="clearfix"></div>
+				<div class="tovar_payments uk-float-left"><img src="imgs/p1.jpg" alt=""> <img src="imgs/p2.jpg" alt=""></div>
+				<div class="tovar_desires uk-float-right"><input type="checkbox" name="desire" value="1"> В список желаний</div>
+				<div class="uk-clearfix"></div>
+				<div class="uk-grid tovar_buttons uk-margin-top uk-margin-bottom">
+					<div class="uk-width-1-1 uk-width-large-1-2"><input type="submit" class="btn_blue osb bbx" value="В корзину"></div>
+					<div class="uk-width-1-1 uk-width-large-1-2"><input type="submit" class="btn_blue btn_blue_light osb bbx" value="Купить в кредит"></div>
+				</div>
+				<div class="networks">
+					<a href="" class="net_vk">ВКонтакте</a>
+					<a href="" class="net_odn">Одноклассники</a>
+					<a href="" class="net_fb">Facebook</a>
+					<a href="" class="net_tw">Twitter</a>
+				</div>
+				<span class="tovar_otzyv_href ossb"><a href="">Отзывы</a></span>
+			</div>
+		</div></form>
+		<hr class="uk-grid-divider uk-hidden-medium uk-hidden-large uk-hidden-xlarge">
+		<div class="uk-grid">
+			<div class="uk-width-1-1">
+				<h3>Гарнитур к этому изделию</h3>
+				<div class="uk-grid uk-grid-width-1-1 uk-grid-garnitur"><div>
+					<div class="garnitur_item">
+						<div class="inner">
+							<div class="plus"></div>
+							<div class="uk-grid">
+								<div class="uk-width-1-3 uk-width-medium-1-1 garnitur_image"><a href=""><img src="imgs/garnitur1.jpg" alt=""></a></div>
+								<div class="uk-width-2-3 uk-width-medium-1-1">
+									<div class="catalog_item_old_price garnitur_old_price"><s>245 774 руб.</s></div>
+									<div class="catalog_item_price garnitur_price osb blue_text">245 300 руб.</div>
+									<div class="catalog_item_name garnitur_item_name"><a href="">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм</a></div>
+									<div class="catalog_item_info garnitur_item_info yellow_text ossb">Осталось 6 изделий!</div>
+									<a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="garnitur_item">
+						<div class="inner">
+							<div class="plus"></div>
+							<div class="uk-grid">
+								<div class="uk-width-1-3 uk-width-medium-1-1 garnitur_image"><a href=""><img src="imgs/garnitur1.jpg" alt=""></a></div>
+								<div class="uk-width-2-3 uk-width-medium-1-1">
+									<div class="catalog_item_old_price garnitur_old_price"><s>245 774 руб.</s></div>
+									<div class="catalog_item_price garnitur_price osb blue_text">245 300 руб.</div>
+									<div class="catalog_item_name garnitur_item_name"><a href="">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм</a></div>
+									<div class="catalog_item_info garnitur_item_info yellow_text ossb">Осталось 6 изделий!</div>
+									<a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="garnitur_item">
+						<div class="inner">
+							<div class="plus"></div>
+							<div class="uk-grid">
+								<div class="uk-width-1-3 uk-width-medium-1-1 garnitur_image"><a href=""><img src="imgs/garnitur1.jpg" alt=""></a></div>
+								<div class="uk-width-2-3 uk-width-medium-1-1">
+									<div class="catalog_item_old_price garnitur_old_price"><s>245 774 руб.</s></div>
+									<div class="catalog_item_price garnitur_price osb blue_text">245 300 руб.</div>
+									<div class="catalog_item_name garnitur_item_name"><a href="">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм</a></div>
+									<div class="catalog_item_info garnitur_item_info yellow_text ossb">Осталось 6 изделий!</div>
+									<a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="garnitur_item">
+						<div class="inner">
+							<div class="plus"></div>
+							<div class="uk-grid">
+								<div class="uk-width-1-3 uk-width-medium-1-1 garnitur_image"><a href=""><img src="imgs/garnitur1.jpg" alt=""></a></div>
+								<div class="uk-width-2-3 uk-width-medium-1-1">
+									<div class="catalog_item_old_price garnitur_old_price"><s>245 774 руб.</s></div>
+									<div class="catalog_item_price garnitur_price osb blue_text">245 300 руб.</div>
+									<div class="catalog_item_name garnitur_item_name"><a href="">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм</a></div>
+									<div class="catalog_item_info garnitur_item_info yellow_text ossb">Осталось 6 изделий!</div>
+									<a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="garnitur_item">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-3 uk-width-medium-1-1 garnitur_image"><a href=""><img src="imgs/garnitur1.jpg" alt=""></a></div>
+								<div class="uk-width-2-3 uk-width-medium-1-1">
+									<div class="catalog_item_old_price garnitur_old_price"><s>245 774 руб.</s></div>
+									<div class="catalog_item_price garnitur_price osb blue_text">245 300 руб.</div>
+									<div class="catalog_item_name garnitur_item_name"><a href="">Кольцо обручальное с гравировкой Сердце, Ты и Я, желтое золото, ширина 4 мм</a></div>
+									<div class="catalog_item_info garnitur_item_info yellow_text ossb">Осталось 6 изделий!</div>
+									<a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div></div>
+			</div>
+			<div class="uk-width-1-1 garnitur_eq"><img src="imgs/eq.jpg" alt=""></div>
+			<div class="uk-width-1-1 garnitur_total">Цена за весь гарнитур не <s>46 526 руб.</s>, а <span class="blue_text osb">39 390 руб.</span></div>
+			<div class="uk-width-1-1 garnitur_cart"><a href="" class="btn_blue osb bbx">ПОЛОЖИТЬ В КОРЗИНУ</a></div>
+		</div>
+		<div class="uk-grid">
+			<div class="uk-width-1-1 uk-width-medium-7-10 tovar_questions osb"><span class="blue_text">Появились вопросы? &nbsp; Нужна помощь?</span> &nbsp; &nbsp; <span class="big">8-800-775-42-30  <span class="osr">|</span>  <a href="mailto:note@goldach.ru" class="osr">note@goldach.ru</a></span></div>
+			<div class="uk-width-1-1 uk-width-medium-3-10 tovar_questions_btn"><a href="#modal-callback" data-uk-modal class="btn_blue osb bbx">ЗАКАЗАТЬ ЗВОНОК</a></div>
+		</div>
+		<div class="uk-grid">
+			<div class="uk-width-1-1">
+				<h3>Вам также понравится</h3>
+				<div class="your_like_slider_wrapper">
+					<div class="your_like_slider" id="your_like_slider">
+						<div class="container">
+							<div class="inner">
+								<div class="catalog_item_stiker catalog_item_stiker_hit"></div>
+								<div class="catalog_item_discount osb">-8%</div>
+								<figure class="catalog_item_image"><a href=""><img src="imgs/related1.jpg" alt=""></a></figure>
+								<div class="catalog_item_price osb blue_text">45 300 руб.</div>
+								<div class="clearfix"></div>
+								<div class="catalog_item_name"><a href="">Кольцо обручальное тройное, красное желтое и белое золото 4м тройное, красное желтое и белое золото 4м</a></div>
+								<div class="catalog_item_info yellow_text ossb">Осталось 6 изделий!</div>
+								<div class="catalog_item_button"><a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="inner">
+								<div class="catalog_item_stiker catalog_item_stiker_oldprice"></div>
+								<div class="catalog_item_discount osb"></div>
+								<figure class="catalog_item_image"><a href=""><img src="imgs/related2.jpg" alt=""></a></figure>
+								<div class="catalog_item_price osb blue_text">45 300 руб.</div>
+								<div class="clearfix"></div>
+								<div class="catalog_item_name"><a href="">Кольцо обручальное тройное, красное желтое и белое золото 4м</a></div>
+								<div class="catalog_item_info yellow_text ossb">&nbsp;</div>
+								<div class="catalog_item_button"><a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="inner">
+								<div class="catalog_item_stiker"></div>
+								<div class="catalog_item_discount osb">-23%</div>
+								<figure class="catalog_item_image"><a href=""><img src="imgs/related3.jpg" alt=""></a></figure>
+								<div class="catalog_item_price osb blue_text">
+									45 300 руб.
+									<div class="catalog_item_pics">
+										<img src="imgs/catalog_pic1.png" alt="" data-uk-tooltip title="К этому изделию есть дополнительный гарнитур">
+										<img src="imgs/catalog_pic2.png" alt="" data-uk-tooltip title="К этому изделию есть дополнительные варианты вставок">
+										<img src="imgs/catalog_pic3.png" alt="" data-uk-tooltip title="Есть дополнительные изделия в других цветах золота">
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="catalog_item_name"><a href="">Кольцо обручальное тройное, красное желтое и белое золото 4м</a></div>
+								<div class="catalog_item_info red_text ossb">Осталось 2 изделия! Поспешите!</div>
+								<div class="catalog_item_button"><a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="inner">
+								<div class="catalog_item_stiker catalog_item_stiker_new"></div>
+								<div class="catalog_item_discount osb"></div>
+								<figure class="catalog_item_image"><a href=""><img src="imgs/related4.jpg" alt=""></a></figure>
+								<div class="catalog_item_price osb blue_text">45 300 руб.</div>
+								<div class="clearfix"></div>
+								<div class="catalog_item_name"><a href="">Кольцо обручальное тройное, красное желтое и белое золото 4м</a></div>
+								<div class="catalog_item_info red_text ossb">Осталось 2 изделия! Поспешите!</div>
+								<div class="catalog_item_button"><a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="inner">
+								<div class="catalog_item_stiker catalog_item_stiker_oldprice"></div>
+								<div class="catalog_item_discount osb">-8%</div>
+								<figure class="catalog_item_image"><a href=""><img src="imgs/related2.jpg" alt=""></a></figure>
+								<div class="catalog_item_price osb blue_text">45 300 руб.</div>
+								<div class="clearfix"></div>
+								<div class="catalog_item_name"><a href="">Кольцо обручальное тройное, красное желтое и белое золото 4м</a></div>
+								<div class="catalog_item_info yellow_text ossb">Осталось 6 изделий!</div>
+								<div class="catalog_item_button"><a href="" class="btn_blue btn_blue_light osb bbx">КУПИТЬ</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<a class="your_like_slider_prev" id="your_like_slider_prev" href="#"></a>
+					<a class="your_like_slider_next" id="your_like_slider_next" href="#"></a>
+					<div class="white_hover_left uk-hidden-small uk-hidden-large uk-hidden-xlarge"></div>
+					<div class="white_hover_right uk-hidden-large uk-hidden-xlarge"></div>
+				</div>
+<script>
+$(document).ready(function(){
+$("#your_like_slider").carouFredSel({
+	auto:{delay:500,duration:1000},
+	scroll:{
+		pauseOnHover:false,
+		duration:1000,
+	},
+	auto:false,
+	responsive: true,
+	prev	: {	
+		button	: "#your_like_slider_prev",
+		key		: "left"
+	},
+	next	: { 
+		button	: "#your_like_slider_next",
+		key		: "right"
+	},
+	items: {
+		visible: {
+				min: 1,
+				max: 4
+			}
+	},
+	scroll: {
+		items: 1,
+		duration: 500,
+		timeoutDuration: 1000,
+		pauseOnHover:true
+	}
+});
+$("#your_like_slider").swipe({
+  excludedElements: "button, input, select, textarea, .noSwipe",
+  swipeLeft: function() {
+    $('#your_like_slider').trigger('next', 1);
+  },
+  swipeRight: function() {
+    $('#your_like_slider').trigger('prev', 1);
+  }
+});
+});
+</script>
+
+			</div>
+		</div>
+	</article>
+</section>
+<div class="content_wrapper tovar_tabs_wrapper">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<div class="uk-width-1-1 tovar_tabs"><div class="inner">
+				<div class="uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-4 osb">
+					<div class="tovar_tab tovar_tab1 bbx active" data-tovar-tab-content="tab1">Гарантии качества</div>
+					<div class="tovar_tab tovar_tab2 bbx" data-tovar-tab-content="tab2">Хотите знать больше?</div>
+					<div class="tovar_tab tovar_tab3 bbx" data-tovar-tab-content="tab3">Доставка</div>
+					<div class="tovar_tab tovar_tab4 bbx last" data-tovar-tab-content="tab4">Отзывы</div>
+				</div>
+			</div></div>
+			<div class="uk-width-1-1 tovar_tabs_content"><div class="inner">
+				<div class="uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-3 uk-grid-match content_tab content_tab1 active"  data-uk-grid-match="{target:'.zagol'}" id="content_tab1">
+					<div class="item bbx">
+						<div class="inner" onclick="location.href='http://google.com'">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Пробы на все изделия</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc1.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Документы на каждое изделие</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc2.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Наша лицензия</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc3.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Обмен в течение пяти дней</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc4.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Бесплатная подарочная упаковка</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc5.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Официальные партнеры крупнейших производителей</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc6.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-3 uk-grid-match content_tab content_tab2"  data-uk-grid-match="{target:'.zagol'}" id="content_tab2">
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Пробы на все изделия</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc3.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Документы на каждое изделие</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc2.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Наша лицензия</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc1.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Обмен в течение пяти дней</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc6.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Бесплатная подарочная упаковка</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc5.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<div class="item bbx">
+						<div class="inner">
+							<div class="uk-grid">
+								<div class="uk-width-1-2 uk-width-medium-1-1 zagol osb">Официальные партнеры крупнейших производителей</div>
+								<div class="uk-width-1-2 uk-width-medium-1-1 image"><img src="imgs/tc4.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-grid content_tab content_tab3" id="content_tab3">
+					<div class="item uk-width-1-1 bbx">
+						<h1>Доставка осуществляется только по территрии РФ.</h1>
+                        <h2>Доставка в пределах МКАД Бесплатная</h2>
+                        <p>Доставка по Москве в пределах МКАД по будням с 9.00 до 18.00 осуществляется бесплатно. До оплаты у вас будет возможность посмотреть на изделие,
+                        оценить его на предмет нравится-не нравится, посмотреть пломбы, бирки. На каждом изделии стоит штамп завода производителя,а также проба, которая 
+                        устанавливается в государственной пробирной палате. К каждому изделию прикреплена бирка, которая является сертификатом изделия. 
+                        Оплата покупки происходит только после осмотра изделия. Также обращаем ваше внимание, что менеджер может изменить 
+                        условия доставки при согласовании заказа, исходя из возможностей компании.</p>
+                        <p><b>Например, наша компания с удовольствием предлагает вам дополнительные опции доставки за 300р :</b></p>
+                        <p>1) Доставка к указанному времени</p>
+                        <p>2) Доставка нашим курьером за МКАД (не более 10км)</p>
+                        <p>3) Доставка после 18.00 </p>
+                        <p>4) Согласование адреса в день доставки курьером</p>
+                        <p>5) Срочная доставка в день заказа</p>
+                        <p>6) Доставка в выходной день</p>        
+                        <p>Добавление каждой новой опции к доставке стоит <b>100</b> рублей. Например, доставка <b>за МКАД</b> в <b>выходной</b> и <b>после 18.00</b> будет стоить 300+100+100 = 500 рублей.</p>
+                        <h2>Доставка по России СПСР-экспресс</h2>   
+                        <p>Мы сотрудничаем с компанией СПСР-экспресс. Доставка осуществляется следующем образом: к вам приезжает курьер, вы оплачиваете посылку, затем открываете её. В посылке будет
+                        лежать ваш заказ в подарочной упаковке, и рядом будет лежать скидочный купон на следующие покупки.</p>
+                        <h2>Доставка Почтой России</h2>
+                        <p>Если вашего города нет в списке городов обслуживаемых СПСР, или вас не устраивает цена доставки, вы всегда можете оформить доставку Почтой России! 
+                        Такая доставка в любую точку страны будет стоить<b> 600р</b>. и необходимо будет внести 100% предоплаты.</p>
+                  </div>
+				</div>
+				<div class="uk-grid content_tab content_tab4" id="content_tab4">
+					<div class="item uk-width-1-1 bbx">
+						<p>тут размещаются отзывы клиентов</p>
+					</div>
+				</div>
+			</div></div>
+		</div>
+	</div>
+</div>
+
+	
+	
+<div class="uk-container uk-container-center">
+	<div class="uk-grid">
+		<div class="uk-width-1-1 uk-width-medium-1-2 main_actions_info">
+			<div class="inner bbx" onclick="location.href='';">
+				<div class="uk-grid">
+					<div class="uk-width-1-3 main_actions_image"><img src="imgs/main_skidka.jpg" alt=""></div>
+					<div class="uk-width-2-3 main_actions_text">
+						<div class="zagol osb">ДИСКОНТНАЯ КАРТА</div>
+						<p>Вы можете приобрести дисконтную карту для накопительных скидок</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="uk-width-1-1 uk-width-medium-1-2 main_actions_info">
+			<div class="inner bbx" onclick="location.href='';">
+				<div class="uk-grid">
+					<div class="uk-width-1-3 main_actions_image"><img src="imgs/main_podarok.jpg" alt=""></div>
+					<div class="uk-width-2-3 main_actions_text">
+						<div class="zagol osb">ПОДАРОЧНАЯ УПАКОВКА</div>
+						<p>Для всех без исключения клиентов нашего магазина — упаковка бесплатная</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clearfix" style="height:40px;"></div>
+<footer class="footer_wrapper">
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<div class="uk-width-1-1 uk-width-medium-3-4 uk-width-large-5-6 bottom_menu">
+				<div class="uk-grid">
+					<nav class="uk-width-3-10 uk-width-medium-3-10 uk-width-large-1-4">
+						<div class="zagol osb">О нас</div>
+						<ul>
+							<li><a href="">Оплата</a></li>
+							<li><a href="">Доставка</a></li>
+							<li><a href="">Гарантия</a></li>
+							<li><a href="">О компании</a></li>
+							<li><a href="">Акции</a></li>
+							<li><a href="">Правовая информация</a></li>
+							<li><a href="">Вакансии</a></li>
+							<li><a href="">Как купить?</a></li>
+							<li><a href="">Вопросы и ответы</a></li>
+						</ul>
+					</nav>
+					<nav class="uk-width-3-10 uk-width-medium-3-10 uk-width-large-1-4">
+						<div class="zagol osb">Категории</div>
+						<ul>
+							<li><a href="">Кольца</a></li>
+							<li><a href="">Подвески</a></li>
+							<li><a href="">Браслеты</a></li>
+							<li><a href="">Серьги</a></li>
+							<li><a href="">Колье</a></li>
+							<li><a href="">Цепочки</a></li>
+							<li><a href="">Мужское</a></li>
+						</ul>
+					</nav>
+					<div class="uk-width-4-10 uk-width-medium-4-10 uk-width-large-1-4 bottom_blogs">
+						<div class="zagol osb">Блог</div>
+						<div class="blog_zagol"><a href="">Как купить?</a></div>
+						<div class="blog_date osi">14.01.2015 13:24:32</div>
+						<div class="blog_zagol"><a href="">Вакансии</a></div>
+						<div class="blog_date osi">13.01.2015 9:07:11</div>
+						
+						<div class="bottom_contacts_tablet uk-hidden-large"><br>
+							<div class="zagol osb">Контакты</div>
+							<div class="bottom_email"><a href="mailto:note@goldach.ru">note@goldach.ru</a></div>
+							<div class="bottom_phone">+7 (495) 236-72-63</div>
+							<div class="bottom_phone">8-800-775-42-30</div>
+							<div class="bottom_address">г. Москва, ул. Молодцова, 4а</div>
+							<div class="bottom_feedback"><a href="#modal-callback" class="btn_blue osb" data-uk-modal>Обратный звонок</a></div>
+						</div>
+					</div>
+					<div class="uk-width-1-4 uk-hidden-small uk-hidden-medium bottom_contacts" itemscope itemtype="http://schema.org/Organization">
+						<div class="zagol osb">Контакты</div>
+						<div style="display:none" itemprop="name">Голдач</div>
+						<div class="bottom_email"><a href="mailto:note@goldach.ru">note@goldach.ru</a></div>
+						<div class="bottom_phone" itemprop="telephone">+7 (495) 236-72-63</div>
+						<div class="bottom_phone" itemprop="telephone">8-800-775-42-30</div>
+						<div class="bottom_address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">г. Москва</span>, <span itemprop="streetAddress">ул. Молодцова, 4а</span></div>
+						<div class="bottom_feedback"><a href="#modal-callback" class="btn_blue osb" data-uk-modal>Обратный звонок</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="uk-width-1-1 uk-width-medium-1-4 uk-width-large-1-6 bottom_contact">
+				<div class="uk-grid">
+					<div class="uk-width-1-2 uk-width-medium-1-1">
+						<div class="bottom_nets">
+							<a href="" class="nets_vk">ВКонтакте</a>
+							<a href="" class="nets_rss">RSS</a>
+						</div>
+						<div class="bottom_rezhim">
+							Режим работы<br>
+							ПН-ПТ: 9:00-20:00<br>
+							СБ-ВС: 9:00-16:00
+						</div>
+						<div class="uk-hidden-medium uk-hidden-large uk-hidden-xlarge bottom_payments"><img src="imgs/p1.jpg" alt=""> <img src="imgs/p2.jpg" alt=""> <img src="imgs/p3.jpg" alt=""> <img src="imgs/p4.jpg" alt=""> <img src="imgs/p5.jpg" alt=""> <img src="imgs/p6.jpg" alt=""></div>
+					</div>
+					<div class="uk-width-1-2 uk-width-medium-1-1 bottom_podpiska">
+						Подписаться на наши<br>рассылки  и получить<br>скидку 300р.<br>
+						<form class="podpiska" method="post" action="#">
+							<input type="text" name="name" placeholder="Введите ваше имя" class="podpiska_txt bbx">
+							<input type="text" name="name" placeholder="Введите ваш e-mail" class="podpiska_txt bbx">
+							<input type="submit" value="ПОДПИСАТЬСЯ" class="btn_blue osb">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="uk-grid">
+			<div class="uk-width-1-1 uk-width-medium-3-10 uk-width-large-2-5 bottom_copyright">2011 - 2015 Интернет-магазин ювелирных украшений Copyright</div>
+			<div class="uk-width-1-1 uk-width-medium-4-10 uk-width-large-2-5 uk-hidden-small bottom_payments"><img src="imgs/p1.jpg" alt=""> <img src="imgs/p2.jpg" alt=""> <img src="imgs/p3.jpg" alt=""> <img src="imgs/p4.jpg" alt=""> <img src="imgs/p5.jpg" alt=""> <img src="imgs/p6.jpg" alt=""></div>
+			<div class="uk-width-1-1 uk-width-medium-3-10 uk-width-large-1-5 bottom_dev">Дизайн сайта: <a href="http://media5.com"><img src="imgs/media5.png" alt="media5"></a></div>
+		</div>
+	</div>
+</footer>
+<div id="modal-callback" class="uk-modal">
+	<div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+       <div class="modal_zagol osb">Заказать обратный звонок</div>
+	   <div class="modal_content bordered">
+			<form class="uk-form callback-form">
+				<div class="uk-grid">
+					<div class="uk-width-1-1">Введите ваше имя:</div>
+					<div class="uk-width-1-1 uk-width-medium-7-10"><input type="text" name="name" class="inp_txt inp_wide bbx"></div>
+					<div class="uk-width-1-1">Введите номер вашего телефона:</div>
+					<div class="uk-width-1-10 phone_code osb">+7</div><div class="uk-width-3-10 uk-width-medium-2-10"><input type="text" name="phone_prefix" class="inp_txt inp_small bbx" maxlength="3" onkeyup="this.value = this.value.replace (/\D/, '')"></div><div class="uk-width-1-10 osb phone_defis"> - </div><div class="uk-width-5-10 uk-width-medium-3-10"><input type="text" name="phone_num" class="inp_txt inp_mid bbx" maxlength="15" onkeyup="this.value = this.value.replace (/\D/, '')"></div>
+					<div class="uk-width-1-1"><input type="submit" value="Заказать" class="inp_submit btn_blue osb"></div>
+				</div>
+			</form>
+	   </div>
+    </div>
+</div>
+<div id="modal2" class="uk-modal">
+	<div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+       <div class="modal_zagol osb">Универсальная форма</div>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	   <div class="modal_content bordered">
+			<form class="uk-form uk-uniform">
+				<div class="uk-grid">
+					<div class="uk-width-1-3 form_row">Текстовый блок:</div>
+					<div class="uk-width-2-3 form_row"><input type="text" name="name" class="inp_txt bbx"></div>
+					<div class="uk-width-1-3 form_row">Блок с чекбоксом:</div>
+					<div class="uk-width-2-3 form_row"><label><input type="checkbox" name="check2[]" class="styled" value="1"> Чек1</label> &nbsp; <label><input type="checkbox" name="check2[]" class="styled" value="2"> Чек2</label> </div>
+					<div class="uk-width-1-3 form_row">Радиобаттон:</div>
+					<div class="uk-width-2-3 form_row"><label><input type="radio" name="radio2" class="styled" value="1"> Кнопка 1</label> &nbsp; <label><input type="radio" name="radio2" class="styled" value="2"> Кнопка 2</label> </div>
+					<div class="uk-width-1-3 form_row">Список:</div>
+					<div class="uk-width-2-3 form_row">
+						<select name="type">
+							<option value="">Выбрать</option>
+							<option value="1">Вариант 1</option>
+							<option value="2">Вариант 2</option>
+							<option value="3">Вариант 3</option>
+						</select>
+					</div>
+					<div class="uk-width-1-3 form_row"></div>
+					<div class="uk-width-1-3 form_row"><input type="submit" value="Кнопка1" class="inp_submit btn_blue btn_blue_light osb"></div>
+					<div class="uk-width-1-3 form_row"><input type="submit" value="Кнопка2" class="inp_submit btn_blue osb"></div>
+				 </div>
+			</form>
+	   </div>
+    </div>
+</div>
+<div id="modal-login" class="uk-modal">
+	<div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+       <div class="modal_zagol osb">Вход в личный кабинет</div>
+	   <div class="modal_content bordered">
+			<form class="uk-form login-form">
+				<div class="uk-grid">
+					<div class="uk-width-1-3 form_row">Введите логин:</div>
+					<div class="uk-width-2-3 form_row"><input type="text" name="login" class="inp_txt bbx"></div>
+					<div class="uk-width-1-3 form_row">Введите пароль:</div>
+					<div class="uk-width-2-3 form_row"><input type="password" name="password" class="inp_txt bbx"></div>
+					<div class="uk-width-1-3 form_row"></div>
+					<div class="uk-width-1-3 form_row reg_text"><a href="">Зарегистрироваться</a></div>
+					<div class="uk-width-1-3 form_row reg_text"><a href="">Получить новый пароль</a></div>
+					<div class="uk-width-1-3 form_row"></div>
+					<div class="uk-width-1-3"><input type="submit" value="Войти" class="inp_submit btn_blue osb"></div>
+				</div>
+			</form>
+	   </div>
+    </div>
+</div>
+<div id="modal-add-cart" class="uk-modal">
+	<div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+       <div class="modal_zagol osb">В корзину добавлен товар</div>
+	   <div class="modal_content bordered">
+			<div class="uk-grid">
+				<div class="uk-width-1-3 add_tovar_foto"><img src="imgs/add_tovar_foto.jpg" alt=""></div>
+				<div class="uk-width-2-3 add_tovar_info">
+					<div class="add_desc">Золотое кольцо с дорожкой из фианитов и крупным фианитом 3.5 мм в центре</div>
+					<div class="add_price osb">5 150 руб.</div>
+					<div class="uk-grid add_buttons">
+						<div class="uk-width-1-2"><a href="" class="btn_blue btn_blue_light osb bbx">Продолжить покупки</a></div>
+						<div class="uk-width-1-2"><a href="" class="btn_blue osb bbx">Оформить заказ</a></div>
+					</div>
+				</div>
+			</div>
+	   </div>
+    </div>
+</div>
+<div id="modal-rassilka" class="uk-modal">
+	<div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+       <div class="modal_zagol osb">Подпишитесь на рассылку</div>
+	   <div class="modal-rassilka-image"><img src="imgs/rassilka_img.jpg" alt=""></div>
+	   <div class="modal-rassilka-text ossb">Специальные предложения и <span class="osb blue_text">скидка 300 руб.</span> за подписку.</div>
+	   <div class="modal_content bordered">
+			<form class="uk-form uk-uniform">
+				<div class="uk-grid">
+					<div class="uk-width-1-3 form_row">Введите ваше имя:</div>
+					<div class="uk-width-2-3 form_row"><input type="text" name="name" class="inp_txt bbx"></div>
+					<div class="uk-width-1-3 form_row">Введите ваш e-mail:</div>
+					<div class="uk-width-2-3 form_row"><input type="text" name="email" class="inp_txt bbx"></div>
+					<div class="uk-width-1-3 form_row"></div>
+					<div class="uk-width-1-3 form_row"><input type="submit" value="Подписаться" class="inp_submit btn_blue osb"></div>
+					<div class="uk-width-1-3 form_row no-spam-row">Обещаем, никакого спама!</div>
+				 </div>
+			</form>
+	   </div>
+    </div>
+</div>
+<div id="informers_block">
+	<div class="informer informer1" id="info1" data-time-delay="0" data-time-show="4"><div class="inner">Это изделие просматривает<br>6 человек</div></div>
+	<div class="informer informer2 informer_green" id="info2" data-time-delay="2" data-time-show="4"><div class="inner">Это изделие в корзине<br>у 18 человек</div></div>
+	<div class="informer informer3 informer_red" id="info3" data-time-delay="4" data-time-show="4"><div class="inner">Осталось последнее изделие!<br>Лучше поспешить!</div></div>
+</div>
+</body>
+</html>
