@@ -476,6 +476,9 @@ transition:margin 0.3s cubic-bezier(0, 0, 1, 1);
 .catalog_item .add_info_sizes{background:url(../imgs/pic_sizes.jpg) 0 0 no-repeat;padding-left:28px;font-size:14px;padding-right:20px;padding-bottom:10px;}
 
 .catalog_item .inner2{width:100%;background:#ffffff;}
+.catalog_item a.inner2{text-decoration:none;}
+.catalog_item a.inner2 .catalog_item_name{color:#000000}
+.catalog_item a.inner2 .catalog_item_name:hover{color:#009ba1;}
 .catalog_item:hover{z-index:5;}
 .catalog_item:hover .inner2{box-shadow:0 0 45px 15px rgba(0,0,0,0.3);/*margin-top:-40px;*/z-index:100;position:absolute;top:0px;left:0px;padding:20px;}
 .catalog_item:hover .add_info{display:block !important;}
