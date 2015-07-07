@@ -580,7 +580,16 @@ transition:margin 0.3s cubic-bezier(0, 0, 1, 1);
 .tovar_tabs_content .zagol{font-size:14px;padding-bottom:10px;}
 
 .tovar_tabs_content .content_tab{display:none;margin-top:0 !important;}
-.tovar_tabs_content .content_tab.active{display:flex;}
+.tovar_tabs_content .content_tab.active{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 
 .white_hover_left{background:url(../imgs/white_hover_left.png) 0 0 repeat-y;top:0;left:0;position:absolute;z-index:1000;width:49px;}
 .white_hover_right{background:url(../imgs/white_hover_right.png) top right repeat-y;top:0;right:0;position:absolute;z-index:1000;width:49px;}
