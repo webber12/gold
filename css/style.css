@@ -679,6 +679,9 @@ a.btn_blue_light.cart_count_btn{font-size:22px;font-family:tahoma !important;}
 .informer_green{color:green;}
 .informer_red{color:#ff5454;}
 
+#totop{display:block;cursor:pointer;width:42px;height:42px;background:url(../imgs/totop_btn.png) 0 0 no-repeat;position:fixed;right:20px;bottom:80px;z-index:1000;display:none;}
+#totop:hover{background-position:0 -42px;}
+
 
 @media only screen and (max-width:1024px){
 	.tovar_questions{font-size:14px;}

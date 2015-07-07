@@ -220,6 +220,22 @@ $("#informers_block .informer").each(function(){
 	showInfo(id, timeDelay, timeShow);
 })
 
+$("#totop").on("click", function(e){
+    e.preventDefault();
+    var curPos = $(document).scrollTop();
+    /*var scrollTime = curPos/2;*/
+    var scrollTime = 1000;
+    $("body,html").animate({"scrollTop":0}, scrollTime);
+})
+
+$(window).scroll(function() {
+    var sd = $(window).scrollTop();
+    if (sd > 700) {
+        $("#totop").fadeIn();
+    } else {
+        $("#totop").fadeOut();
+    }
+})
 
 })
 	
